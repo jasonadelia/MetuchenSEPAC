@@ -5,4 +5,4 @@ relative_permalinks: true
 # Setup
 title:            Metuchen SEPAC
 paginate:         1
-baseurl:          /
+baseurl:          http://jasondelia.com/MetuchenSEPAC/
