@@ -1,8 +1,51 @@
----
-layout: page
-title: Home
----
-<div class="container">
+<!DOCTYPE html>
+<html class="no-js">
+	
+	<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    
+      Metuchen Special Education Parent Advisory Council
+    
+  </title>
+
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700|Lato:400,900' rel='stylesheet' type='text/css'>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/main.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="Metuchen Special Education Parent Advisory Council" href="/atom.xml">
+
+
+  <script src="/public/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+
+
+	<body>
+		<div class="header-wrap">
+			<header class="masthead">
+				<h1 class="masthead-title">
+					<a href="/" title="Home">Metuchen <b>SEPAC</b></a>
+				</h1>
+				<nav>
+					<a href="/info/adhd.html">get information</a>
+					<a href="/events">events</a>
+					<a href="/about">about</a>
+				</nav>
+			</header>
+		</div>
+
+		<main>
+			  <div class="container">
 
 <div class="site-alert">
 	<div class="block-inner">
@@ -45,35 +88,35 @@ title: Home
 			<p>Find out about meetings, events we sponsor and topics of interest.</p>
 			<label>
 				Name
-				<input type="text">
+				<input type="text" />
 			</label>
 			<label>
 				Email Address
-				<input type="text">
+				<input type="text" />
 			</label>
-			<input type="checkbox" class="chk" id="volunteer"> <label for="volunteer">I am interested in volunterring</label>
+			<input type="checkbox" class="chk" id="volunteer" /> <label for="volunteer">I am interested in volunterring</label>
 			<fieldset>
 				<div class="block-inner">
 					<label>Age(s) of children with learning differences</label>
 					<div class="unit third">
-						<input type="checkbox" class="chk" id="age5"> <label for="age5">5</label>
-						<input type="checkbox" class="chk" id="age8"> <label for="age8">8</label>
-						<input type="checkbox" class="chk" id="age11"> <label for="age11">11</label>
-						<input type="checkbox" class="chk" id="age14"> <label for="age14">14</label>
-						<input type="checkbox" class="chk" id="age17"> <label for="age17">17</label>
+						<input type="checkbox" class="chk" id="age5" /> <label for="age5">5</label>
+						<input type="checkbox" class="chk" id="age8" /> <label for="age8">8</label>
+						<input type="checkbox" class="chk" id="age11" /> <label for="age11">11</label>
+						<input type="checkbox" class="chk" id="age14" /> <label for="age14">14</label>
+						<input type="checkbox" class="chk" id="age17" /> <label for="age17">17</label>
 					</div>
 					<div class="unit third">
-						<input type="checkbox" class="chk" id="age6"> <label for="age6">6</label>
-						<input type="checkbox" class="chk" id="age9"> <label for="age9">9</label>
-						<input type="checkbox" class="chk" id="age12"> <label for="age12">12</label>
-						<input type="checkbox" class="chk" id="age15"> <label for="age15">15</label>
-						<input type="checkbox" class="chk" id="age18"> <label for="age18">18+</label>
+						<input type="checkbox" class="chk" id="age6" /> <label for="age6">6</label>
+						<input type="checkbox" class="chk" id="age9" /> <label for="age9">9</label>
+						<input type="checkbox" class="chk" id="age12" /> <label for="age12">12</label>
+						<input type="checkbox" class="chk" id="age15" /> <label for="age15">15</label>
+						<input type="checkbox" class="chk" id="age18" /> <label for="age18">18+</label>
 					</div>
 					<div class="unit third">
-						<input type="checkbox" class="chk" id="age7"> <label for="age7">7</label>
-						<input type="checkbox" class="chk" id="age10"> <label for="age10">10</label>
-						<input type="checkbox" class="chk" id="age13"> <label for="age13">13</label>
-						<input type="checkbox" class="chk" id="age16"> <label for="age16">16</label>
+						<input type="checkbox" class="chk" id="age7" /> <label for="age7">7</label>
+						<input type="checkbox" class="chk" id="age10" /> <label for="age10">10</label>
+						<input type="checkbox" class="chk" id="age13" /> <label for="age13">13</label>
+						<input type="checkbox" class="chk" id="age16" /> <label for="age16">16</label>
 					</div>
 				</div>
 				<legend>Optional Questions</legend>
@@ -82,7 +125,7 @@ title: Home
 					<textarea class="text-input"></textarea>
 				</label>
 			</fieldset>
-			<input type="submit" value="Submit"/>
+			<input type="submit" value="Submit" />
 		</div>
 	</div>
 	<!--div class="unit">
@@ -105,16 +148,22 @@ title: Home
 	</div-->
 </div>
 <!--ul>
-{% assign sorted_posts = (site.posts | sort: 'title') %}
-{% for post in sorted_posts limit: 10 %}
-	<li>{{ post.title }}</li>
-{% endfor %}
+
+
+	<li>Example content</li>
+
+	<li>What's Jekyll?</li>
+
 </ul>
 <ul>
-{% assign sorted_events = (site.events | sort: 'date' | reverse) %}
-{% for event in sorted_events %}
-	<li>{{ event.foo }}</li>
-{% endfor %}
+
+
+	<li>bam</li>
+
+	<li>baz</li>
+
+	<li>bar</li>
+
 </ul>
 
 <h1 class="heading--demoted">Next Event</h1>
@@ -147,3 +196,14 @@ title: Home
 	</div>
 </section-->
 </div>
+
+
+		</main>
+
+		<footer class="footer">
+			<small>
+				&copy; <time datetime="2015-03-12T13:52:30-04:00">2015</time>. All rights reserved.
+			</small>
+		</footer>
+	</body>
+</html>
